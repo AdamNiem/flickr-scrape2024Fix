@@ -17,7 +17,7 @@ source env/bin/activate
 
 ## Usage
 
-[Get an API key from Flickr](https://www.flickr.com/services/api/misc.api_keys.html) and make a file called `credentials.json` which has the following text in it (replace the credentials with your own):
+[Get an API key from Flickr](https://www.flickr.com/services/api/misc.api_keys.html) and make a file called `credentials.json` (I put this file in the repo already you just need to edit it) which has the following text in it (replace the credentials with your own):
 
 ```
 {"KEY":"YOUR_API_KEY", "SECRET":"YOUR_API_SECRET"}
@@ -40,4 +40,4 @@ You can also add a lat/lng coordinates to specify a geographic bounding box:
 
 Large-sized (1024px width) will be downloaded by default. You can download the original images by passing the flag `--original`.
 
-Limit the number of pages of results downloaded by passing `--max-pages N` where `N` is pages of 500 results each.  Specify the start page with `--start-page M`.
+Limit the number of pages of results downloaded by passing `--max-pages N` where `N` is pages of 50 results each.  Specify the start page with `--start-page M`.
